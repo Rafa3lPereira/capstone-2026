@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 534">
+  <defs>
+    <linearGradient id="terracotta" x2="1" y2="1">
+      <stop stop-color="#772612"/>
+      <stop offset=".49" stop-color="#9f371b"/>
+      <stop offset="1" stop-color="#e78338"/>
+    </linearGradient>
+    <radialGradient id="hearth" cx=".92" cy=".64" r=".71">
+      <stop stop-color="#ffdaa0"/>
+      <stop offset=".42" stop-color="#eb9a4f" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#ee8b3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="amber" x1="0" y1=".22" x2=".91" y2=".94">
+      <stop stop-color="#bd471f"/>
+      <stop offset=".38" stop-color="#ffad27"/>
+      <stop offset="1" stop-color="#efa040"/>
+    </linearGradient>
+    <linearGradient id="cream" x1=".08" y1="0" x2=".8" y2="1">
+      <stop stop-color="#fbd8ab"/>
+      <stop offset=".36" stop-color="#ffedc6"/>
+      <stop offset="1" stop-color="#e99d51"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2=".9" y2=".86">
+      <stop stop-color="#f39143"/>
+      <stop offset=".62" stop-color="#c54c24"/>
+      <stop offset="1" stop-color="#942d18"/>
+    </linearGradient>
+    <linearGradient id="gold-edge" x2="1" y2="0">
+      <stop stop-color="#ffcf57"/>
+      <stop offset=".48" stop-color="#fff1b1"/>
+      <stop offset=".8" stop-color="#fff8d9"/>
+      <stop offset="1" stop-color="#ffbc32"/>
+    </linearGradient>
+    <g id="wheat" fill="#ffda8b">
+      <path d="M0 107C2 77 6 33 0 0" fill="none" stroke="#ffdb90" stroke-width="1.6"/>
+      <path d="M1 14C-6 6-6-5 0-15 5-5 7 6 1 14ZM1 30C-13 28-18 19-20 10-7 13 0 20 1 30Zm1 1c1-12 9-19 19-23C20 21 10 28 2 31ZM3 46c-12-1-20-8-23-18C-7 29 2 38 3 46Zm0 2c3-11 10-17 21-20-3 12-11 17-21 20ZM3 64c-12-1-20-8-23-17 13 0 20 8 23 17Zm0 1c3-9 12-15 22-16C21 59 13 64 3 65ZM2 80c-11-2-17-7-20-15 12 0 18 6 20 15Zm0 2c3-8 11-14 21-15C18 76 10 81 2 82Z"/>
+      <path d="M0-9-2-23m-14 37-7-9m39 10 9-10m-41 28-8-8m43 10 9-8" fill="none" stroke="#ffdb90" stroke-linecap="round" stroke-width=".6"/>
+    </g>
+  </defs>
+  <path fill="url(#terracotta)" d="M0 0h560v534H0z"/>
+  <path fill="url(#hearth)" d="M0 0h560v534H0z"/>
+  <path fill="url(#ribbon)" d="M0 0h294C155 6 62 85 0 220Z"/>
+  <path fill="#f28d42" opacity=".47" d="M0 0h225C128 19 51 66 0 139Z"/>
+  <path fill="url(#amber)" d="M356 0h204v94C482 87 414 47 356 0Z"/>
+  <path fill="#ffcb64" opacity=".3" d="M452 0h108v91C508 73 475 42 452 0Z"/>
+  <path d="M356 0c58 47 126 87 204 94" fill="none" stroke="url(#gold-edge)" stroke-width="2.4"/>
+  <g opacity=".64">
+    <use href="#wheat" transform="translate(509 190) rotate(33) scale(1.05)"/>
+    <use href="#wheat" transform="translate(529 255) rotate(48) scale(.83)" opacity=".76"/>
+    <use href="#wheat" transform="translate(456 231) rotate(14) scale(.74)" opacity=".54"/>
+  </g>
+  <path fill="url(#amber)" d="M0 275c110 3 147 103 269 109 122 6 178-59 291-43v193H0Z"/>
+  <path fill="#bb521f" opacity=".23" d="M0 339c127-51 203 114 363 80C208 497 125 348 0 410Z"/>
+  <path fill="url(#cream)" d="M0 389c128 0 167 107 287 109 117 2 153-78 273-94v130H0Z"/>
+  <path d="M0 389c128 0 167 107 287 109" fill="none" stroke="#fff3d2" stroke-width="1.6"/>
+  <path fill="#ce8542" opacity=".34" d="M0 495c118-78 178 27 302 13 102-11 169-80 258-96v122H0Z"/>
+  <path fill="url(#ribbon)" d="M99 534c77-38 159 3 248-34 67-28 118-80 213-96v130Z"/>
+  <path fill="#883015" opacity=".34" d="M440 534c47-38 79-65 120-70v70Z"/>
+  <path d="M295 515c110-12 159-92 265-111" fill="none" stroke="url(#gold-edge)" stroke-width="2.7"/>
+</svg>
