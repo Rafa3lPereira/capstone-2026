@@ -4,7 +4,7 @@ Rafael Pereira y Hardy Vega · Noviembre de 2026
 
 | ID | Riesgo | Probabilidad | Impacto | Respuesta | Responsable | Estado |
 |---|---|---|---|---|---|---|
-| R01 | Saldo inconsistente entre operación y libro | Alta | Alta | Probar confirmaciones y reversos en base aislada; conciliar saldo y movimientos. | Rafael | Abierto a piloto |
+| R01 | Saldo inconsistente entre operación y libro | Alta | Alta | Probar confirmaciones y reversos en base aislada; conciliar saldo y movimientos. | Rafael | Por monitorear |
 | R02 | Cierre o arqueo con diferencia sin explicación | Media | Alta | Registrar diferencia, observación y fondo. Revisar reportes con datos sintéticos. | Rafael y Hardy | Control implementado |
 | R03 | Permisos incorrectos o fuga de datos | Media | Alta | Revisar perfiles y rutas; mantener credenciales y filas internas fuera del repositorio. | Hardy | Control implementado |
 | R04 | Migraciones de ambos integrantes en conflicto | Media | Alta | Coordinar orden de migraciones, revisar cambios y aplicar en copia limpia. | Rafael y Hardy | En seguimiento |

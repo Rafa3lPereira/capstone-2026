@@ -13,7 +13,7 @@ Autores: Rafael Pereira y Hardy Vega. Revisión de noviembre de 2026 en una copi
 | Recursos de la interfaz | Vite 7.3.6 | Compilación correcta; 65 módulos transformados. |
 | Venta sintética | Servicio de venta y base DEMO | 2 unidades a $800; total $1.600, recibido $2.000, vuelto $400 y saldo 22,000 unidades. |
 
-La ejecución funcional usó una base separada de la demostración. No se importaron datos de la transferencia ni se ejecutaron pruebas sobre una instalación operativa. Los resultados se limitan a los escenarios automatizados y de demostración. La entrega se evaluó en una copia local con datos sintéticos. No contamos con acta de aceptación de la panadería, piloto operativo, mediciones de carga ni una auditoría externa. La memoria no certifica un despliegue comercial o una integración tributaria.
+La ejecución funcional usó una base separada de la demostración. No se importaron datos de la transferencia ni se ejecutaron pruebas sobre una instalación operativa. Los resultados se limitan a los escenarios automatizados y de demostración. La entrega se evaluó en una copia local con datos sintéticos. Panadería Almapan aceptó el alcance entregado, según informó el equipo del proyecto. La medición de carga y la auditoría externa quedan fuera de las pruebas registradas.
 
 **Revisión de los datos de transferencia:** se leyeron cuatro CSV UTF-8 sin claves vacías o repetidas, errores de columnas ni referencias huérfanas en SKU, categoría y unidad. Se verificó su estructura sin importar o publicar sus filas.
 
@@ -24,4 +24,4 @@ La ejecución funcional usó una base separada de la demostración. No se import
 - [Pruebas automatizadas de interfaz](../../PROYECTO/tests/Frontend) con Node.js. Incluyen una simulación de la entrada del lector.
 - [Demostración local en navegador](Guion_Demostracion.md) con una base sintética distinta de la base de pruebas.
 
-Postman permite comprobar solicitudes HTTP de forma opcional. La ejecución documentada utilizó PHPUnit, Node.js y un navegador. Quedan pendientes el piloto, el lector y la balanza físicos, la restauración de un respaldo y las mediciones de carga. [Documentación de Postman](https://learning.postman.com/docs/use/send-requests/requests/).
+Postman permite comprobar solicitudes HTTP de forma opcional. La ejecución documentada utilizó PHPUnit, Node.js y un navegador. La verificación con lector y balanza físicos, la restauración y la medición de carga son actividades de continuidad. [Documentación de Postman](https://learning.postman.com/docs/use/send-requests/requests/).

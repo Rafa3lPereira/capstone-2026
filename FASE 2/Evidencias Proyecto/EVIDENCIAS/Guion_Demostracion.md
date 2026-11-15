@@ -8,4 +8,4 @@ Utilizar solo la base local de demostración. No introducir datos de personas, c
 4. Crear un pedido de texto libre de ejemplo. Revisar modalidad, estado, contacto ficticio y registro de cobro. No usar un teléfono o correo real.
 5. Crear una recepción interna; comprobar que el borrador no modifica existencias. Confirmar y verificar el nuevo movimiento. Usar una merma de ensayo para comprobar la trazabilidad de la salida.
 6. Revisar pagos y fondo en caja. Si se ejecuta un cierre, registrar la diferencia y su causa cuando corresponda. Probar acceso con un perfil que no tenga el permiso de administración.
-7. Capturar pantallas sin rutas de archivos locales ni credenciales. Conservar fecha, acción, resultado esperado, resultado observado y persona responsable. Antes de un piloto, acordar restauración y validación con el cliente.
+7. Capturar pantallas sin rutas de archivos locales ni credenciales. Conservar fecha, acción, resultado esperado, resultado observado y persona responsable. Para el seguimiento operativo, registrar las incidencias y el resultado de las comprobaciones de continuidad.

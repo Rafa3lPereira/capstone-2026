@@ -4,12 +4,12 @@
 - Calidad, seguridad, riesgos y pruebas funcionales: informes incluidos en esta carpeta.
 - Registro y vista de riesgos: `Registro_Riesgos_PanGestion.xlsx` y `Dashboard_Riesgos_PanGestion.html`.
 - Ejecución y alcance: `Resultados_Verificacion_PanGestion.md`.
-- Capturas de demostración y diagramas técnicos: carpeta `Capturas`.
+- [Arquitectura y modelo de datos](Arquitectura_y_Modelo_PanGestion.md) con diagramas de PostgreSQL y capturas de venta y movimientos de inventario.
 - Guion y conjunto sintético: `Guion_Demostracion.md` y `Datos_Sinteticos.md`.
 
 Las capturas muestran una instalación local con registros sintéticos. Las láminas de arquitectura, datos y proceso son esquemas explicativos. La Gantt conserva los porcentajes simulados de octubre.
 
-**Capturas adicionales para la validación final:** aceptación del cliente, prueba del lector y balanza y restauración de un respaldo autorizado. No se adjuntan datos de la transferencia, credenciales ni configuraciones locales.
+Panadería Almapan aceptó el alcance entregado, según informó el equipo del proyecto. Las comprobaciones de continuidad incluyen lector, balanza y restauración. No se adjuntan datos de la transferencia, credenciales ni configuraciones locales.
 
 ## Seguimiento del proyecto en Kanban
 

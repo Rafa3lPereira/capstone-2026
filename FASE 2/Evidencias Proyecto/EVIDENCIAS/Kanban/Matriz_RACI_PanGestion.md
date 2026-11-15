@@ -1,6 +1,6 @@
 # Matriz RACI de PanGestión
 
-La matriz organiza la entrega académica y los pendientes. Cada fila tiene una sola persona o parte que responde por el cierre. La aprobación del piloto corresponde a Panadería Almapan y sigue pendiente. El apoyo de infraestructura mencionado en la planificación inicial se consulta cuando se confirme su participación.
+La matriz organiza la entrega académica y los pendientes. Cada fila tiene una sola persona o parte que responde por el cierre. Panadería Almapan aceptó el alcance entregado, según informó el equipo del proyecto. El apoyo de infraestructura mencionado en la planificación inicial se consulta cuando se confirme su participación.
 
 | ID | Actividad | Rafael Pereira | Hardy Vega | Panadería Almapan | Docente |
 |---|---|---|---|---|---|
@@ -11,7 +11,7 @@ La matriz organiza la entrega académica y los pendientes. Cada fila tiene una s
 | 05 | Ventas, pedidos y caja diaria | A/R | R | C | I |
 | 06 | Pruebas automatizadas y evidencias | A | R | — | I |
 | 07 | Tablero Kanban y seguimiento | A/R | R | — | I |
-| 08 | Piloto y aceptación operacional | R | R | A | I |
+| 08 | Aceptación de la entrega por Almapan | R | R | A | I |
 | 09 | Restauración de un respaldo de prueba | A/R | C | C | I |
 | 10 | Informe y demostración académica | A | R | I | C |
 

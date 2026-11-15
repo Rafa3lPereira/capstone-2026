@@ -13,7 +13,7 @@ Importa `PanGestion_Tareas_Notion.csv` mediante **Configuración → Importar �
 - **Todas las tareas**: vista tabla. Mostrar ID, estado, responsable, revisor, área y prioridad.
 - **Tablero**: vista tablero agrupada por Estado, en orden Por hacer, En curso, En revisión, Listo. Mostrar ID, prioridad y responsable. Mantener visibles los grupos vacíos.
 - **Mis tareas**: vista tabla filtrada por Responsable, con una variante por integrante.
-- **Validación pendiente**: vista tabla para piloto, dispositivos, restauración y carga.
+- **Validación pendiente**: vista tabla para dispositivos, restauración y carga.
 
 El archivo CSV carga las tareas. Configura las vistas, propiedades de persona y la plantilla de tarjeta en Notion. Si ya existe un registro, revisa los IDs antes de importar para evitar duplicados.
 
@@ -28,7 +28,7 @@ El archivo CSV carga las tareas. Configura las vistas, propiedades de persona y 
 
 El equipo limita el trabajo iniciado a dos tarjetas entre En curso y En revisión, incluidas las bloqueadas. Cada integrante mantiene como máximo una tarjeta activa. Si hay un bloqueo, se registra su causa y el siguiente paso. Antes de iniciar otra tarea se prioriza revisar o desbloquear lo que ya está abierto.
 
-Una tarjeta pasa a En revisión con el cambio o la evidencia publicada y el resultado de la comprobación. Pasa a Listo cuando la otra persona verifica el criterio de aceptación y se enlaza el respaldo. La aceptación de la panadería se registra durante el piloto.
+Una tarjeta pasa a En revisión con el cambio o la evidencia publicada y el resultado de la comprobación. Pasa a Listo cuando la otra persona verifica el criterio de aceptación y se enlaza el respaldo. Panadería Almapan aceptó el alcance entregado, según informó el equipo del proyecto.
 
 Agregar como propiedades opcionales **Bloqueada** (casilla), **Inicio real** y **Cierre real** (fechas) y **Motivo del bloqueo** (texto). Los registros reconstruidos conservan sus fechas reales vacías si no hay evidencia de inicio o cierre.
 
