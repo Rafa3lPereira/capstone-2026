@@ -16,3 +16,12 @@ Autores: Rafael Pereira y Hardy Vega. Revisión de noviembre de 2026 en una copi
 La ejecución funcional usó una base separada de la demostración. No se importaron datos de la transferencia ni se ejecutaron pruebas sobre una instalación operativa. Los resultados se limitan a los escenarios automatizados y de demostración. La entrega se evaluó en una copia local con datos sintéticos. No contamos con acta de aceptación de la panadería, piloto operativo, mediciones de carga ni una auditoría externa. La memoria no certifica un despliegue comercial o una integración tributaria.
 
 **Revisión de los datos de transferencia:** se leyeron cuatro CSV UTF-8 sin claves vacías o repetidas, errores de columnas ni referencias huérfanas en SKU, categoría y unidad. Se verificó su estructura sin importar o publicar sus filas.
+
+## Dónde se hicieron las pruebas
+
+- [Pruebas unitarias](../../PROYECTO/tests/Unit) con PHPUnit para la lógica de PHP.
+- [Pruebas funcionales y de integración](../../PROYECTO/tests/Feature) con Laravel y PHPUnit en PostgreSQL aislado. Cubren, entre otros casos, acceso, ventas, inventario, recepciones, pedidos y caja.
+- [Pruebas automatizadas de interfaz](../../PROYECTO/tests/Frontend) con Node.js. Incluyen una simulación de la entrada del lector.
+- [Demostración local en navegador](Guion_Demostracion.md) con una base sintética distinta de la base de pruebas.
+
+Postman permite comprobar solicitudes HTTP de forma opcional. La ejecución documentada utilizó PHPUnit, Node.js y un navegador. Quedan pendientes el piloto, el lector y la balanza físicos, la restauración de un respaldo y las mediciones de carga. [Documentación de Postman](https://learning.postman.com/docs/use/send-requests/requests/).
